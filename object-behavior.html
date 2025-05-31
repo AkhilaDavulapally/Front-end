@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let pen={
+            color:"blue",
+            height:12,
+            write: function(color)
+            {
+                console.log("The"+color+"pen is starts writing");
+            },
+            plays:play
+        }
+        pen.write(pen.color);
+        function refill(color){
+            console.log("The" +color+ "ink is getting refilled in the pen");
+        }
+        pen.ink=refill;
+        pen.ink(pen.color);
+        function play(method){
+            console.log("The pen is getting" +method);
+        }
+        pen.plays("spining");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
