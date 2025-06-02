@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function a()
+        {
+            console.log("A function is called");
+        }
+        let x=function()
+        {
+            console.log("Anonymous function");
+        }
+        x();
+        console.log("-----------");
+        function y(c)
+        {
+            console.log("Y is a higher order function");
+            console.log("Y function  is called");
+            c();
+        }
+        y(a);
+        console.log("------------");
+        y(x);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
