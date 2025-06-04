@@ -1,0 +1,16 @@
+let x= document.getElementById("a");
+console.log(x);
+x.innerText="DOM";
+let y=document.getElementById("b");
+y.innerText="Apple";
+let z=document.getElementById("c");
+z.innerText="Ram";
+let w=document.getElementById("d");
+w.innerText="monika";
+x.style.color="violet";
+let box=document.getElementById("box");
+box.style.border="3px solid green";
+box.style.borderRadius="15px";
+y.style.color="brown";
+z.style.color="orange";
+w.style.color="gold";
